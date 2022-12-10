@@ -1,0 +1,21 @@
+#Ignore the contents of the directory
+**/build/*
+
+#Ignore all files .jar
+*.jar
+#but don't ignore the file...
+!module2.jar
+
+#Ignore the local variables file
+*application-local.properties
+
+#Ignore the folder completely
+/.idea/
+
+#Ignore the contents of the directory
+/.idea_copy/*
+#but don't ignore the file...
+!/workspace.xml
+
+#Do not ignore files with the name..
+!build*
